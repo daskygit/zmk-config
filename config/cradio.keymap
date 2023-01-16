@@ -31,13 +31,13 @@
             layers = <0>;
             timeout-ms = <15>;
             key-positions = <13 14>;
-            bindings = <&kp LS(9)>;
+            bindings = <&kp LS(N9)>;
         };
         combo_rbrc {
             layers = <0>;
             timeout-ms = <15>;
             key-positions = <15 16>;
-            bindings = <&kp LS(0)>;
+            bindings = <&kp LS(N0)>;
         };
         combo_lcbrc {
             layers = <0>;
@@ -134,7 +134,7 @@
             bindings = <
             &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U          &kp I           &kp O            &kp P
             &ht LCTRL A     &ht LALT S      &ht LGUI D      &kp F           &kp G           &kp H           &kp J          &ht RGUI K      &ht LALT L       &ht LCTRL SQT
-            &kp Z           &kp X           &kp C           &kp V           &kp B           &kp N           &kp M          &kp COMMA       &kp DOT          &kp FSLH
+            &kp LSHIFT Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M          &kp COMMA       &kp DOT          &kp RSHiFT FSLH
                                                             &lt 1 TAB       &lt 2 BSPC      &lt 2 SPACE     &lt 1 ENTER
             >;
         };
