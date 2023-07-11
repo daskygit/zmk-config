@@ -132,36 +132,36 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &kp Q           &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U          &kp I           &kp O            &kp P
-            &ht LCTRL A     &ht LALT S      &ht LGUI D      &kp F           &kp G           &kp H           &kp J          &ht RGUI K      &ht LALT L       &ht LCTRL SEMI
-            &ht LSHIFT Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M          &kp COMMA       &kp DOT          &ht RSHIFT FSLH
+                                            &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U          &kp I           &kp O           
+           &kp Q            &ht LCTRL A     &ht LALT S      &ht LGUI D      &kp F           &kp G           &kp H           &kp J          &ht RGUI K      &ht LALT L       &ht LCTRL SEMI  &kp P
+                            &ht LSHIFT Z    &kp X           &kp C           &kp V           &kp B           &kp N           &kp M          &kp COMMA       &kp DOT          &ht RSHIFT FSLH
                                                             &lt 1 TAB       &lt 2 BSPC      &lt 2 SPACE     &lt 1 ENTER
             >;
         };
 
         lower_layer {
             bindings = <
-            AS(N1)          AS(N2)          AS(N3)          AS(N4)          AS(N5)           AS(F1)          AS(F2)         AS(F3)          AS(F4)          AS(F5)
-            AS(N6)          AS(N7)          AS(N8)          AS(N9)          AS(N0)           AS(F6)          AS(F7)         AS(F8)          AS(F9)          AS(F10)
-            AS(MINUS)       AS(EQUAL)       AS(NUHS)        AS(LBKT)        AS(RBKT)         AS(F11)         AS(F12)        &kp C_PP        &kp C_NEXT      &kp LC(LA(DEL))
+                                            AS(N2)          AS(N3)          AS(N4)          AS(N5)           AS(F1)          AS(F2)         AS(F3)          AS(F4)         
+            AS(N1)          AS(N6)          AS(N7)          AS(N8)          AS(N9)          AS(N0)           AS(F6)          AS(F7)         AS(F8)          AS(F9)          AS(F10)  AS(F5)
+                            AS(MINUS)       AS(EQUAL)       AS(NUHS)        AS(LBKT)        AS(RBKT)         AS(F11)         AS(F12)        &kp C_PP        &kp C_NEXT      &kp LC(LA(DEL))
                                                             &trans          &mo 3            &lt 3 SPACE     &trans
             >;
         };
 
         upper_layer {
             bindings = <
-            &none           &kp BSPC        &kp UP          &kp ENTER       &kp LG(R)       &none           &none           &none           &none           &none
-            &none           &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none           &none           &none           &none           &kp PSCRN
-            &trans          &trans          &trans          &trans          &trans          &none           &none           &none           &none           &kp LC(LA(DEL))
+                                      &kp BSPC        &kp UP          &kp ENTER       &kp LG(R)       &none           &none           &none           &none           
+          &none       &none           &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none           &none           &none           &none           &kp PSCRN &none
+                      &trans          &trans          &trans          &trans          &trans          &none           &none           &none           &none           &kp LC(LA(DEL))
                                                             &trans          &trans          &trans          &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-            &bootloader     &reset          &none           &none           &bt BT_SEL 0    &none           &none           &none           &reset          &bootloader
-            &none           &none           &none           &none           &bt BT_SEL 1    &none           &none           &none           &none           &none
-            &none           &none           &none           &bt BT_CLR      &bt BT_SEL 2    &none           &none           &none           &none           &none
+                                          &reset          &none           &none           &bt BT_SEL 0    &none           &none           &none           &reset          
+            &bootloader   &none           &none           &none           &none           &bt BT_SEL 1    &none           &none           &none           &none           &none &bootloader
+                          &none           &none           &none           &bt BT_CLR      &bt BT_SEL 2    &none           &none           &none           &none           &none
                                                             &none           &none           &none           &none
             >;
         };
