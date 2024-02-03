@@ -129,6 +129,11 @@
         };
     };
 
+    &lt {
+        quick-tap-ms = <150>;
+        require-prior-idle-ms = <125>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
