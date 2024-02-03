@@ -9,6 +9,8 @@
 
 &lt {
     tapping-term-ms = <170>;
+    quick-tap-ms = <150>;
+    require-prior-idle-ms = <125>;
     global-quick-tap;
 };
 
@@ -127,11 +129,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    };
-
-    &lt {
-        quick-tap-ms = <150>;
-        require-prior-idle-ms = <125>;
     };
 
     keymap {
