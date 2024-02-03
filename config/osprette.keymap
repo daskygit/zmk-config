@@ -60,7 +60,7 @@
         combo_del {
             layers = <0>;
             timeout-ms = <15>;
-            key-positions = <7 8>;
+            key-positions = <6 7>;
             bindings = <&kp DEL>;
         };
         combo_grv {
@@ -84,7 +84,7 @@
         combo_nubs {
             layers = <0>;
             timeout-ms = <15>;
-            key-positions = <11 12>;
+            key-positions = <10 11>;
             bindings = <&kp NUBS>;
         };
         combo_dash {
@@ -115,6 +115,7 @@
             tapping-term-ms = <170>;
             quick-tap-ms = <150>;
             global-quick-tap;
+            require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
         as: auto_shift {
