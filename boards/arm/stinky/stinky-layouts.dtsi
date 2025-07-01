@@ -3,15 +3,15 @@
 / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "LAYOUT_stinky";
+        display-name = "Default";
 
         kscan = <&kscan0>;
         transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100    50    0       0     0     0>
+            = <&key_physical_attrs 100 100  50    0       0     0     0>
+            , <&key_physical_attrs 100 100  0    100       0     0     0>
             , <&key_physical_attrs 100 100  100    100       0     0     0>
-            , <&key_physical_attrs 100 100  200    100       0     0     0>
             , <&key_physical_attrs 100 100  50    200       0     0     0>
             ;
     };
