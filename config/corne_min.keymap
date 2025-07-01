@@ -92,7 +92,7 @@
         combo_dash {
             layers = <0>;
             timeout-ms = <15>;
-            key-positions = <26 27>
+            key-positions = <26 27>;
             bindings = <&kp MINUS>;
         };
         combo_equals {
