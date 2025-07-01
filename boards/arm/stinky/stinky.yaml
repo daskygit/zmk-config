@@ -1,0 +1,14 @@
+identifier: bt60_v1_hs
+name: Stinky
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - watchdog
