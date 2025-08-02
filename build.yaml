@@ -1,0 +1,3 @@
+include:
+  - board: stinky
+    snippet: studio-rpc-usb-uart
