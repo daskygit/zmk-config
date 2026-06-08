@@ -85,7 +85,7 @@
             layers = <0>;
             timeout-ms = <15>;
             key-positions = <18 19>;
-            bindings = <AS(SQT)>;
+            bindings = <&kp PSCRN>;
         };
         combo_nuhs {
             layers = <0>;
