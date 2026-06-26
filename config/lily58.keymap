@@ -174,7 +174,7 @@
                             &trans          &none         &kp LEFT      &kp DOWN        &kp RIGHT       &none                                   &none           &none           &none           &none        &kp PSCRN        &none
                             &trans          &trans        &trans        &trans          &trans          &trans         &trans          &trans   &none           &none           &none           &none        &kp LC(LA(DEL))  &none  
                                                                         &trans          &trans          &trans         &trans          &trans   &trans          &trans          &trans
-                                                        &kp C_PP                                                                                                                                 &kp C_MUTEa
+                                                        &kp C_PP                                                                                                                                 &kp C_MUTE
             >;
             sensor-bindings = <
                         &inc_dec_kp C_VOL_DN C_VOL_UP
